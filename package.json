@@ -12,6 +12,7 @@
     "verify": "npm run lint && npm run typecheck && npm run test"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^20.0.0",
     "eslint": "^9.0.0",
     "typescript": "^5.5.0",

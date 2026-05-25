@@ -32,8 +32,3 @@ jobs:
 
       - name: Run tests
         run: npm run test
-
-      - name: Update README with CI badge
-        run: |
-          sed -i 's/\[!\[CI\]/[![CI]/g' README.md
-          sed -i 's|workflows/CI/badge.svg|workflows/CI/badge.svg|g' README.md
