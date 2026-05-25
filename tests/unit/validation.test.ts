@@ -9,7 +9,7 @@ import {
   normalizeAddress,
   isValidPhone,
   isValidZip
-} from '../src/dispatcher/validation';
+} from '../../src/dispatcher/validation';
 
 describe('normalizePhone', () => {
   it('formats 10-digit numbers with +1', () => {
