@@ -1,5 +1,7 @@
 # AI Voice & Text Dispatcher
 
+[![CI](https://github.com/Matrix-ops77/ai-dispatch-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Matrix-ops77/ai-dispatch-portfolio/actions)
+
 A production-grade AI dispatch system that handles emergency service calls via voice and text — with intelligent routing, intake automation, and CRM integration.
 
 ## What It Does
