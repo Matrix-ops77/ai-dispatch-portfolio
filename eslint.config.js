@@ -1,7 +1,9 @@
 import js from '@eslint/js';
+import tseslint from 'typescript-eslint';
 
 export default [
   js.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     files: ['**/*.ts', '**/*.js'],
     languageOptions: {
@@ -9,8 +11,7 @@ export default [
       sourceType: 'module',
     },
     rules: {
-      'no-unused-vars': 'warn',
-      'no-undef': 'warn',
+      '@typescript-eslint/no-unused-vars': 'warn',
     },
   },
 ];
